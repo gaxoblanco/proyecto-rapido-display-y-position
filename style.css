@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(43, 41, 26);
+}
+
+.containar {
+    width: 100%;
+    position: absolute;
+    background-color: #fffacd;
+background-image: linear-gradient(62deg, #fffacd 10%, #ffffe0 100%);
+
+
+}
+
+
+.logo{
+    position: absolute;
+    width: 15rem;
+    margin-left: 10px;
+}
+.logo img{
+    width: 100%;
+    position: left;
+}
+.vaner{
+    position: absolute;
+    text-align: left;
+    margin-left: 25rem;
+    margin-top: 3.5rem;   
+}
+.nav{
+    width: 100vw;
+    height: 6rem;
+    background-color: PapayaWhip;
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    background-color: PeachPuff;
+    font-size: 20px;
+    margin:10px;
+    padding: 18px;
+    border-radius: 20px;
+}
+.nav li:nth-child(4){
+    margin-right: 30px;
+}
+
+
+
+.article{
+    display: inline-block;
+    position: absolute;
+    background: PapayaWhip;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 20rem;
+    height: 25rem;
+    margin-left: 27rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 20px;
+}
+.article2{
+    display: inline-block;
+    position: absolute;
+    background: PapayaWhip;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 20rem;
+    height: 25rem;
+    margin-left: 49rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 20px;
+}
+.article3{
+    display: inline-block;
+    position: absolute;
+    background: PapayaWhip;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 20rem;
+    height: 25rem;
+    margin-left: 72rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 20px;
+}
+.tarjeta h3{
+    padding: 1rem;
+    border-radius: 20px;
+    background: PeachPuff;
+    margin-bottom: 1rem;
+
+}
+.img{
+    background:PeachPuff;
+    border-radius: 20px;
+}
+.contenido{
+    padding-top: 2rem;
+}
+
+
+
+.contenedor-publicidad{
+    width: 25rem;
+    height: 100%;
+    display: inline-block;
+    background: PapayaWhip;
+    position: relative;
+    
+}
+.contenedor-publicidad div:nth-child(1){
+    margin-top: 3rem;
+}
+.publicidad{
+    display: block;
+    border-radius: 20px;
+    height: 10rem;
+    background: PeachPuff;
+    margin: 2rem;
+    position: relative;
+}
+
+img{
+    width: 9rem;
+    margin: 1rem;
+}
+.description{ 
+    margin-left: 10rem;
+    position: right;
+    width: 10rem;
+    position: absolute;
+    text-align: center;    
+}
+
+
+
+
+
+
+
+
+.footer{
+    border-top: 2px solid  	LightYellow;
+    width: 100%;
+    height: 4rem;
+    background:  	Moccasin;
+    list-style: none;
+    text-align: right;
+}
+
+.footer li{
+    display: inline-block;
+    font-size: 20px;
+    margin:15px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
